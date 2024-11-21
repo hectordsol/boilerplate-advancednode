@@ -12,6 +12,7 @@ async function main(callback) {
 
         // Make the appropriate DB calls
         await callback(client);
+        console.log("deberia conectar")
 
     } catch (e) {
         // Catch any errors
